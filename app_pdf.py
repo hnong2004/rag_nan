@@ -77,7 +77,7 @@ def generate_answer(query, qdrant, embedding_model):
 def main():
     st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
     st.title("🤖 AI Innovator LLM & RAG")
-    st.subheader("Chatbot ช่วยตอบคำถามเกี่ยวกับข้อมูลในเอกสาร")
+    st.subheader("Chatbot ช่วยตอบคำถามเกี่ยวกันแผนการท่องเที่ยวตามฤดูกาลในจังหวัดน่าน")
 
     qdrant, embedding_model = load_embedding_and_qdrant()
     load_and_add_documents(qdrant, embedding_model)

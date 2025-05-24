@@ -1,0 +1,18 @@
+[project]
+name = "ai-innovator-llm-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docling>=2.34.0",
+    "gdown>=5.2.0",
+    "groq>=0.25.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.21",
+    "pypdf>=5.5.0",
+    "python-dotenv>=1.1.0",
+    "qdrant-client>=1.12.1",
+    "sentence-transformers>=4.1.0",
+    "streamlit>=1.45.1",
+]
